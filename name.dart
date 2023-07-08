@@ -1,4 +1,6 @@
+import 'mock.dart';
+
 void main() {
-  const firstname = 'Bernard';
-  print(firstname);
+  //User user;
+  print(MockData.users.elementAt(0).fullName);
 }
